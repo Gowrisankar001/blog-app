@@ -1,0 +1,74 @@
+.Signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color:#80BD9E;
+    height: 100vh;
+}
+  .Signup-heading{
+    font-size: 45px;
+    color: rgb(69, 48, 73);
+    font-family: 'Courier New';
+    font-weight: 600;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+  }
+  @media screen and (min-width: 992px) {
+    .form-container {
+      width: 450px;
+      flex-shrink: 0;
+      padding: 64px 48px 64px 48px;
+    }
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0px;
+    font-family: 'Courier New';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+  }
+  .common-input-field {
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid orange;
+    background-color: transparent;
+    color: black;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+  .Signup-button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: orange;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  

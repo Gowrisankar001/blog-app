@@ -1,0 +1,43 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:white;
+    color: white;
+  }
+  .navbar-content{
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+
+  }
+  .blog-heading{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: black;
+  }
+
+  .signin-signup-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+.login-signup-buttons{
+    
+        font-family: Courier New;
+        font-weight: 600;
+        font-size: 14px;
+        background-color: orange;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        padding: 12px 42px;
+        margin:20px;
+      
+}
+.login-signup-link{
+    color: #ffffff;
+    text-decoration: none;
+}
